@@ -23,3 +23,16 @@
 // }
 // ^console.log won't be executed because it's after a return statement
 
+function isPurple(color){
+    if (color.toLowerCase() === 'purple'){
+        return true;
+    }
+    return false;
+}
+// ^doesn't need an "else" statement because as long as "if" isn't true
+// then the "return false" will execute
+
+function isPurple(color){
+    return color.toLowerCase() === 'purple';
+}
+// ^shortened option to the prior conditional statement
