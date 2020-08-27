@@ -36,3 +36,13 @@ function isPurple(color){
     return color.toLowerCase() === 'purple';
 }
 // ^shortened option to the prior conditional statement
+
+function containsPurple(arr){
+    for(let color of arr){
+        if (color === 'purple' || color === 'magenta'){
+            return true;
+        }
+    }
+    return false
+}
+// ^more return practice with a for-of loop within a conditional
