@@ -27,7 +27,11 @@ getCard(){
     const valIdx = Math.floor(Math.random() * values.length);
 	const value = values[valIdx];
 
-	const suits = [ 'clubs', 'spades', 'hearts', 'diamonds' ];
+    const suits = [ 'clubs', 
+                    'spades', 
+                    'hearts', 
+                    'diamonds' 
+                ];
 	const suitIdx = Math.floor(Math.random() * suits.length);
 	const suit = suits[suitIdx];
 	return { value: value, suit: suit };
