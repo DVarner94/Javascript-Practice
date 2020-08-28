@@ -1,3 +1,5 @@
+let num = prompt ("Enter a number to see if it's prime or not.");
+
 function isPrime(num){
     if (num < 2){
         return "Oops. That's not a prime number!";
@@ -8,5 +10,7 @@ function isPrime(num){
             return "Oops. That's not a prime number!";
         } 
     }
-    return "Prime Number!";
+    return "You got it! That's a prime number.";
 }
+
+console.log(isPrime(num));
