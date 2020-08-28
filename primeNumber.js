@@ -1,12 +1,12 @@
 function isPrime(num){
     if (num < 2){
-        return "Not Prime!!";
+        return "Oops. That's not a prime number!";
     }
     
     for (let i = 2; i < num; i++){
         if (num % i === 0){
-            return "Not Prime!!";
+            return "Oops. That's not a prime number!";
         } 
     }
-    return "Prime number!";
+    return "Prime Number!";
 }
